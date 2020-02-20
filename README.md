@@ -8,5 +8,5 @@ blog developper par le club python 3.20
 # noukd
 # blekou
 # franckerck96
-# elysee-01
-# Sedirckgael
+# elysee-01 <br> 
+Sedrickgael

@@ -9,6 +9,6 @@ blog developper par le club python 3.20
 # jeanbaptisteyelle
 # noukd
 # blekou
-# franckerck96
+# franckerick96
 # elysee-01 
 # 

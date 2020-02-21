@@ -1,0 +1,49 @@
+.artilce{
+    border: 1px solid powderblue;
+    border-radius: 10px;
+    width: 60%;
+    margin: 20px auto;
+}
+
+.article-header{
+    background-color: lightblue;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+}
+
+.article-header div *{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.2em;
+}
+
+.article-header div img{
+    border-radius: 10px 0 0 0;
+    margin-right: 10%;
+    width: 20%;
+    height: 20%;
+}
+
+.article-header h2{
+    text-align: center;
+    font-variant: small-caps;
+    text-decoration: underline;
+    text-decoration-style:  double;
+    padding: 0 5px 10px 5px;
+}
+
+
+.artilce-body{
+    padding: 10px;
+    text-align: justify;font-family: Arial, Verdana, cursive;
+}
+
+.artilce-footer{
+    padding: 0px 10px;
+    text-align: center;
+    background-color: powderblue;
+    color: #555;
+    font-weight: bold;
+    border-radius: 0 0 10px 10px;
+}

@@ -1,0 +1,129 @@
+html{
+	background-color: rgba(170, 219, 170, 0.493);
+}
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	
+}
+/*back*/
+#presentation span{
+color: blue;
+}
+#presentation h1{
+	font-size: 60px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+}
+#presentation h3{
+	font-size: 40px;
+	font-family: arial;
+	color: rgb(250, 37, 37);
+}
+/*python*/
+#conpat1 h2{
+	font-family: sans-serif;
+	font-size: 2em;
+}
+#conpat1 p{
+	font-size: 1.3em;
+	font-style: none;
+}
+#conpat1 a{
+	font-size: 1.3em;
+	font-style: none;
+}
+#conpat1{
+	display: inline-block;
+	margin: 80px;
+}
+#i1{
+	display: inline-block;
+	border-radius: 5em;
+	height: 55vh;
+	width: 40% ;
+	background-color: rgb(54, 43, 148);
+	transform: scale(1.0);
+	transition: 5s;
+}
+#i1 img{
+	display: inline;
+	height: 300px;
+	width: 400px ;
+	border-radius: 5em;
+	margin:17px;
+	/*background-color: rgb(54, 43, 148);*/
+}
+#t1{
+	border: solid  rgb(230, 230, 18);
+	border-radius: 1em;
+	background-color: beige;
+	height: 55vh;
+	width: 50%;
+	display: inline-left;
+	float: left;
+	transform: scale(1.0);
+	transition: 5s;
+}
+/*produit*/
+#prod h2{
+	font-family: sans-serif;
+	font-size: 2em;
+}
+#prod p{
+	font-size: 1.3em;
+	font-style: none;
+}
+#prod a{
+	font-size: 1.3em;
+	font-style: none;
+}
+#prod{
+	display: inline-block;
+	margin: 80px;
+}
+#ca{
+	display: inline-block;
+	border-radius: 5em;
+	height: 55vh;
+	width: 40% ;
+	background-color: rgba(12, 59, 20, 0.911);
+	transform: scale(1.0);
+	transition: 5s;
+}
+#ca img{
+	display: inline;
+	height: 300px;
+	width: 400px ;
+	border-radius: 5em;
+	margin:17px;
+	/*background-color: rgb(54, 43, 148);*/
+}
+#django{
+	border: solid  rgb(230, 230, 18);
+	border-radius: 1em;
+	background-color: rgba(133, 133, 129, 0.671);
+	height: 55vh;
+	width: 50%;
+	display: inline-left;
+	float: left;
+	transform: scale(1.0);
+	transition: 5s;
+}
+#py{
+	display: inline-block;
+	background: url(py.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: darkgrey;
+	transform: skewX(10px);
+	width: 100%;
+	height: 30vh;
+}
+#py1{
+	display: inline-block;
+}
+#py2{
+	display: inline;
+}

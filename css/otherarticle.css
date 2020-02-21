@@ -1,15 +1,26 @@
+body{
+    background-color: #eee;
+}
+
 .artilce{
-    border: 1px solid powderblue;
+    border: 0px solid powderblue;
     border-radius: 10px;
     width: 60%;
     margin: 20px auto;
+    box-shadow: 1px 1px 2px 3px lightgray;
+    background-color: #fff;
 }
 
 .article-header{
-    background-color: lightblue;
-    color: navy;
+    background-color: #fff;
+    color: rgb(28, 159, 211);
     font-weight: bold;
     border-radius: 10px 10px 0 0;
+}
+
+small#small {
+    font-size: small;
+    color: #aaa;
 }
 
 .article-header div *{
@@ -33,7 +44,7 @@
 .article-header h2{
     text-align: center;
     font-variant: small-caps;
-    text-decoration: underline;
+    text-decoration: none;
     text-decoration-style:  double;
     padding: 0 5px 10px 5px;
 }
@@ -43,17 +54,17 @@
     text-align: justify;
     font-family: Arial, Verdana, cursive;
     line-height: 25px;
+    color: #000a
 }
 
 .artilce-footer{
     padding: 0px 10px;
     text-align: center;
-    background-color: powderblue;
-    color: #555;
+    background-color: #fff;
+    color: #aaa;
     font-weight: bold;
     border-radius: 0 0 10px 10px;
 }
-
 
 @keyframes rotate{
     0%{

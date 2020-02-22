@@ -3,6 +3,8 @@ body
     font-family: 'Lato', sans-serif;
     margin: 70px 0px;
     background: #5c95d1;
+    background-image: url("1.png");
+    background-size: cover;
 }
 .divider
 {
@@ -25,9 +27,10 @@ h2
 #contact-form
 {
     font-size: 20px;
-    background: #fff;
+    background: #fffa;
     padding: 40px;
     border-radius: 10px;
+    color:rgb(0, 0, 0);
 }
 /*---  NEW  ------*/
 .blue
@@ -38,6 +41,7 @@ h2
 {
     height: 50px;
     font-size: 18px;
+    background-color: #fffa;
 }
 #contact-form input[type=submit]
 {

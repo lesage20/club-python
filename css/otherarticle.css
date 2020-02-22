@@ -1,15 +1,26 @@
+body{
+    background-color: #eee;
+}
+
 .artilce{
-    border: 1px solid powderblue;
+    border: 0px solid powderblue;
     border-radius: 10px;
     width: 60%;
     margin: 20px auto;
+    box-shadow: 1px 1px 2px 3px lightgray;
+    background-color: #fff;
 }
 
 .article-header{
-    background-color: lightblue;
-    color: navy;
+    background-color: #fff;
+    color: rgb(28, 159, 211);
     font-weight: bold;
     border-radius: 10px 10px 0 0;
+}
+
+small#small {
+    font-size: small;
+    color: #aaa;
 }
 
 .article-header div *{
@@ -20,7 +31,6 @@
 
 .article-header div img{
     animation: rotate 3s linear infinite;
-    animation-direction: alternate-reverse;
     border-radius: 50%;
     border: 1px solid blue;
     margin: 5px;
@@ -34,7 +44,7 @@
 .article-header h2{
     text-align: center;
     font-variant: small-caps;
-    text-decoration: underline;
+    text-decoration: none;
     text-decoration-style:  double;
     padding: 0 5px 10px 5px;
 }
@@ -44,39 +54,26 @@
     text-align: justify;
     font-family: Arial, Verdana, cursive;
     line-height: 25px;
+    color: #000a
 }
 
 .artilce-footer{
     padding: 0px 10px;
     text-align: center;
-    background-color: powderblue;
-    color: #555;
+    background-color: #fff;
+    color: #aaa;
     font-weight: bold;
     border-radius: 0 0 10px 10px;
 }
 
-
 @keyframes rotate{
     0%{
-        background-color: blue;
+        border-color: blue;
         transform: rotateY(0deg);
     }
 
     100%{
-        background-color: yellow;
+        border-color: fuchsia;
         transform: rotateY(360deg);
     }
-}
-
-.commentaire{
-    border: 1px solid rgb(176, 224, 230);
-    min-width: 200px;
-    width: 45%;
-}
-
-.commentaire-header{
-    background-color: rgb(3, 3, 68);
-    color: #fff;
-    padding: 5px;
-    border-radius: 5px 5px 0 0;
 }

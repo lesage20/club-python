@@ -1,0 +1,113 @@
+.artilce{
+    border: 1px solid powderblue;
+    border-radius: 10px;
+    width: 60%;
+    margin: 20px auto;
+}
+
+.article-header{
+    background-color: lightblue;
+    color: navy;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+}
+
+.article-header div *{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.2em;
+}
+
+.article-header div img{
+    animation: rotate 3s linear infinite;
+    animation-direction: alternate-reverse;
+    border-radius: 50%;
+    border: 1px solid blue;
+    margin: 5px;
+    padding: 5px;
+    background-color: #fff;
+    margin-right: 10%;
+    width: 10%;
+    height: 10%;
+}
+
+.article-header h2{
+    text-align: center;
+    font-variant: small-caps;
+    /*text-decoration: underline;
+    text-decoration-style:  double;*/
+    padding: 0 5px 10px 5px;
+}
+
+.artilce-body{
+    padding: 10px;
+    text-align: justify;
+    font-family: Arial, Verdana, cursive;
+    line-height: 25px;
+}
+
+.artilce-footer{
+    padding: 0px 10px;
+    text-align: center;
+    background-color: powderblue;
+    color: #555;
+    font-weight: bold;
+    border-radius: 0 0 10px 10px;
+}
+
+
+@keyframes rotate{
+    0%{
+        background-color: blue;
+        transform: rotateY(0deg);
+    }
+
+    100%{
+        background-color: yellow;
+        transform: rotateY(360deg);
+    }
+}
+
+.section-des-commentaires{
+    margin-top: 100px
+}
+
+.commentaires{
+    text-align: center;
+    margin-top: 20px
+}
+
+.commentaire{
+    border: 1px solid powderblue;
+    max-width: 50%;
+    width: max-content;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.commentaire-header{
+    background-color: powderblue;
+    color: rgb(3, 3, 68);
+    padding: 5px;
+    border-radius: 9px 9px 0 0;
+}
+
+.commentaire-body{
+    padding: 5px;
+    font-size: 0.95em;
+    font-family: Arial;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.profile-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.in_block{
+    display: inline-block;
+    vertical-align: middle;
+}

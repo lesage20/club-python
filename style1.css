@@ -3,7 +3,7 @@ body
     font-family: 'Lato', sans-serif;
     margin: 70px 0px;
     background: #5c95d1;
-    background-image: url("1.png");
+    background-image: url("img/1.png");
     background-size: cover;
 }
 .divider

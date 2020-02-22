@@ -20,6 +20,7 @@
 
 .article-header div img{
     animation: rotate 3s linear infinite;
+    animation-direction: alternate-reverse;
     border-radius: 50%;
     border: 1px solid blue;
     margin: 5px;
@@ -57,12 +58,25 @@
 
 @keyframes rotate{
     0%{
-        border-color: blue;
+        background-color: blue;
         transform: rotateY(0deg);
     }
 
     100%{
-        border-color: fuchsia;
+        background-color: yellow;
         transform: rotateY(360deg);
     }
+}
+
+.commentaire{
+    border: 1px solid rgb(176, 224, 230);
+    min-width: 200px;
+    width: 45%;
+}
+
+.commentaire-header{
+    background-color: rgb(3, 3, 68);
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px 5px 0 0;
 }

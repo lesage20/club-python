@@ -1,10 +1,11 @@
-html{
-	background-color: rgba(170, 219, 170, 0.493);
+#h{
+	background-color: white;
 }
-body{
+#bo{
 	margin: 0;
 	padding: 0;
 	text-align: center;
+	
 	
 }
 /*back*/
@@ -25,6 +26,7 @@ color: blue;
 #conpat1 h2{
 	font-family: sans-serif;
 	font-size: 2em;
+	color: blue;
 }
 #conpat1 p{
 	font-size: 1.3em;
@@ -70,6 +72,7 @@ color: blue;
 #prod h2{
 	font-family: sans-serif;
 	font-size: 2em;
+	color: blue;
 }
 #prod p{
 	font-size: 1.3em;
